@@ -1,0 +1,24 @@
+node_modules
+dist
+.env
+.env.local
+.env.production
+
+# Build / build tools
+build/
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local Netlify folder
+.netlify
+
+# Claude Code (per-machine settings)
+.claude/
